@@ -8,3 +8,10 @@ navLinks.forEach(link => {
     targetElement.scrollIntoView({ behavior: "smooth" });
   });
 });
+
+
+const invertColorsButton = document.getElementById('invert-colors-button');
+
+invertColorsButton.addEventListener('click', function() {
+  document.body.classList.toggle('inverted-colors');
+});

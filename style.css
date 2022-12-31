@@ -101,3 +101,85 @@ body {
   .large-link:hover {
     color: rgb(85, 85, 85);
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input[type="submit"] {
+    font-size: 16px;
+    color: #fff;
+    margin: 1px -10; 
+  }
+  
+  input[type="email"], textarea {
+    width: 300px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+    transition: 0.2s;
+  }
+  
+  input[type="email"]:focus, textarea:focus {
+    outline: none;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+  }
+  
+  input[type="submit"] {
+    border: 2px solid #fff;
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  /* Add this CSS code to your style.css file */
+
+#invert-colors-button {
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#invert-colors-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+body {
+  color: #fff;
+  background-color: #000;
+  transition: 0.2s;
+}
+
+/* Define the styles for the inverted colors */
+.inverted-colors {
+  color: #000;
+  background-color: #fff;
+}
+
+.inverted-colors #invert-colors-button {
+  color: #000;
+  background-color: #fff;
+}
+
+.inverted-colors #invert-colors-button:hover {
+  background-color: #000;
+  color: #fff;
+}
