@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  section {
+    margin: 40px 0;
+  }
+  
+  footer {
+    text-align: center;
+    color: #666;
+    font-size: 0.8em;
+    margin-top: 20px;
+  }
+  
+
+  .languages-and-tools-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .languages-and-tools-container img {
+    width: 70px;
+    height: 70px;
+    margin: 0 5px; 
+
+  }
+
+  #about h2 {
+    text-align: center; 
+  }
+  
+  #about {
+    text-align: center;
+  }
+
+  #languages-and-tools-container h2 {
+    text-align: center; 
+  }
+  
+  h2 {
+    text-align: center;
+  }
+
+  .project-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  
+  .project-button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  #contact p {
+    text-align: center; /* Center the text */
+  }
+  
+
+  .large-link {
+    color: #fff;
+    text-decoration: underline; 
+    transition: 0.2s;
+  }
+  
+  .large-link:hover {
+    color: rgb(85, 85, 85);
+  }
