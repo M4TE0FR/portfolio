@@ -88,7 +88,7 @@ body {
   }
 
   #contact p {
-    text-align: center; 
+    text-align: center; /* Center the text */
   }
   
 
@@ -144,7 +144,7 @@ body {
     color: #000;
   }
 
-
+  /* Add this CSS code to your style.css file */
 
 #invert-colors-button {
   font-size: 16px;
@@ -168,7 +168,7 @@ body {
   transition: 0.2s;
 }
 
-
+/* Define the styles for the inverted colors */
 .inverted-colors {
   color: #000;
   background-color: #fff;
@@ -233,3 +233,11 @@ html {
   scroll-behavior: smooth;
 }
 
+
+nav a {
+  transition: background-color 0.2s;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: rgb(85, 85, 85);
+}
