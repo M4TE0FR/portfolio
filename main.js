@@ -10,8 +10,3 @@ navLinks.forEach(link => {
 });
 
 
-const invertColorsButton = document.getElementById('invert-colors-button');
-
-invertColorsButton.addEventListener('click', function() {
-  document.body.classList.toggle('inverted-colors');
-});
