@@ -241,3 +241,15 @@ nav a:hover {
   text-decoration: underline;
   color: rgb(85, 85, 85);
 }
+
+#file-list {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+#file-list button {
+  margin: 10px;
+}
