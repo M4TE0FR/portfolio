@@ -253,3 +253,8 @@ nav a:hover {
 #file-list button {
   margin: 10px;
 }
+#counter {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
