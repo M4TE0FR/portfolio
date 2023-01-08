@@ -258,3 +258,22 @@ nav a:hover {
   font-weight: bold;
   color: #333;
 }
+
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  img {
+    width: 100%;
+  }
+  .languages-and-tools-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #menu-button {
+    display: none;
+  }
+}
